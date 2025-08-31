@@ -146,10 +146,10 @@ function populateEducation() {
 
 // About Me data
 const aboutData = `
-    I’m a computer science graduate student at Clemson University with a deep interest in software engineering, data science, and emerging technologies.
+    I’m a computer science graduate student at Clemson University with a deep interest in software engineering, AI, data science, and emerging technologies.
     I enjoy building real-world solutions that blend intelligent systems with intuitive user experiences.
     My recent experience includes developing cross-platform mobile applications, designing cloud-based architectures with AWS, and publishing research
-    on Digital Twins in sustainable farming. I’m always exploring ways to combine creativity and code to build systems that are impactful, efficient, and future-ready.
+    on Digital Twins in sustainable farming. I’m always exploring ways to combine creativity and code to build systems that are practical, impactful, efficient, and future-ready.
 `;
 
 // Function to populate About Me section
