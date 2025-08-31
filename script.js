@@ -186,7 +186,7 @@ function populateSkills() {
         'Cloud (AWS)',
       ],
       'Programming Languages': [
-        'C', 'C++', 'Java', 'JavaScript', 'Python', 'SQL', 'Visual Basics', 'HTML', 'CSS',
+        'C', 'C++', 'Java', 'JavaScript', 'Python', 'SQL', 'Visual Basic', 'HTML', 'CSS',
       ]
     };
   
@@ -214,7 +214,7 @@ function populateSkills() {
       'Object Oriented Programming': 'https://cdn.jsdelivr.net/npm/devicon@2.15.1/icons/java/java-original.svg',
       'Artificial Intelligence': 'https://cdn.jsdelivr.net/npm/devicon@2.15.1/icons/python/python-original.svg',
       'IoT': 'https://cdn.jsdelivr.net/npm/devicon@2.15.1/icons/arduino/arduino-original.svg',
-      'Visual Basics': 'https://cdn.jsdelivr.net/npm/devicon@2.15.1/icons/windows8/windows8-original.svg',
+      'Visual Basic': 'https://cdn.jsdelivr.net/npm/devicon@2.15.1/icons/windows8/windows8-original.svg',
     };
   
     for (const category in skills) {
