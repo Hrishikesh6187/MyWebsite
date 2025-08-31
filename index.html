@@ -1,0 +1,169 @@
+<!-- python3 -m http.server 8000 -->
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hrishikesh Prahalad - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script defer src="script.js"></script>
+    <style>
+        .profile-photo {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 1rem;
+        }
+
+        .profile-photo img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 3px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav-wrapper">
+        <div class="nav-content">
+            <ul class="list-styled">
+                <li><a class="nav-link" href="#about">About</a></li>
+                <li><a class="nav-link" href="#skills">Skills</a></li>
+                <li><a class="nav-link" href="#experience">Experience</a></li>
+                <li><a class="nav-link" href="#projects">Projects</a></li>
+                <li><a class="nav-link" href="#education">Education</a></li>
+                <li><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="theme-switch-wrapper">
+        <label class="theme-switch" for="checkbox">
+            <input type="checkbox" id="checkbox" />
+            <div class="slider round">
+                <svg class="sun" viewBox="0 0 24 24">
+                    <path d="M12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.65 0-3 1.35-3 3s1.35 3 3 3 3-1.35 3-3-1.35-3-3-3zm0-2c.28 0 .5-.22.5-.5v-3c0-.28-.22-.5-.5-.5s-.5.22-.5.5v3c0 .28.22.5.5.5zm0 13c-.28 0-.5.22-.5.5v3c0 .28.22.5.5.5s.5-.22.5-.5v-3c0-.28-.22-.5-.5-.5zm8.5-6.5c0-.28-.22-.5-.5-.5h-3c-.28 0-.5.22-.5.5s.22.5.5.5h3c.28 0 .5-.22.5-.5zM4 12c0-.28-.22-.5-.5-.5h-3c-.28 0-.5.22-.5.5s.22.5.5.5h3c.28 0 .5-.22.5-.5zm15.89-5.11l-2.12-2.12c-.2-.2-.51-.2-.71 0-.2.2-.2.51 0 .71l2.12 2.12c.2.2.51.2.71 0 .2-.2.2-.52 0-.71zM6.11 17.89l-2.12-2.12c-.2-.2-.51-.2-.71 0-.2.2-.2.51 0 .71l2.12 2.12c.2.2.51.2.71 0 .2-.2.2-.52 0-.71zM17.89 17.89c-.2-.2-.51-.2-.71 0l-2.12 2.12c-.2.2-.2.51 0 .71.2.2.51.2.71 0l2.12-2.12c.2-.2.2-.52 0-.71zM6.11 6.11c.2-.2.2-.51 0-.71L4 3.28c-.2-.2-.51-.2-.71 0-.2.2-.2.51 0 .71L5.4 6.11c.2.2.51.2.71 0z"/>
+                </svg>
+                <svg class="moon" viewBox="0 0 24 24">
+                    <path d="M12.3 22h-.1c-5.5-.5-9.9-5-9.9-10.6C2.3 6 6.7 1.5 12.2 1l.1 1c-4.9.5-8.7 4.4-8.7 9.3s3.8 8.8 8.7 9.3l-.1 1z M16 19.1c-1 0-2-.2-2.9-.7-2.4-1.2-3.9-3.4-4.1-6-.2-2.6.9-5.1 2.9-6.7 1.5-1.2 3.3-1.7 5.1-1.4.8.1 1 1.2.3 1.5-2.1 1.2-3.5 3.5-3.5 6.1 0 2.6 1.4 4.9 3.5 6.1.7.4.5 1.5-.3 1.5-.3.1-.7.1-1 .1z"/>
+                </svg>
+            </div>
+        </label>
+    </div>
+
+    <main class="hero-wrapper relative min-h-screen flex flex-col items-center justify-center text-center">
+        <div class="hero-content">
+          <div class="profile-photo">
+            <img src="HPphoto.jpg" alt="Hrishikesh Prahalad" />
+          </div>
+          <h1 class="title">Hrishikesh Prahalad</h1>
+          <p class="text">Graduate Student at Clemson University</p>
+      
+          <div class="hero-links">
+            <a href="mailto:hrishi.prahalad@gmail.com" target="_blank" aria-label="Email">
+              <svg class="small-icon" viewBox="0 0 24 24">
+                <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+              </svg>
+            </a>
+      
+            <a href="https://www.linkedin.com/in/hrishikesh-prahalad-ab960428a" target="_blank" aria-label="LinkedIn">
+              <svg class="small-icon" viewBox="0 0 24 24">
+                <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/>
+              </svg>
+            </a>
+      
+            <a href="https://github.com/Hrishikesh6187" target="_blank" aria-label="GitHub">
+              <svg class="small-icon" viewBox="0 0 24 24">
+                <path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </main>
+    
+        <!-- Scroll down arrow at the bottom center -->
+        <div class="scroll-down absolute bottom-6 left-1/2 transform -translate-x-1/2 text-gray-400 text-sm flex flex-col items-center animate-bounce">
+            <span>Scroll down</span>
+            <svg class="down-arrow w-5 h-5 mt-1" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 16l-6-6h12z" />
+            </svg>
+        </div>
+    </main>
+
+    <section id="about" class="section-wrapper">
+        <div class="section-content">
+            <h2 class="section-title">About Me</h2>
+            <p class="about-text"></p>
+        </div>
+    </section>
+
+    <section id="skills" class="section-wrapper">
+        <div class="section-content">
+          <h2 class="section-title">Skills</h2>
+          <div class="skills-grid"></div>
+        </div>
+    </section>
+
+    <section id="experience" class="section-wrapper">
+        <div class="section-content">
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="experience-grid">
+                <!-- Experience items will be populated via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <div class="projects-heading">
+          <h2 class="section-title">Projects</h2>
+        </div>
+      
+        <div class="projects-scroll-container">
+          <div class="projects-grid">
+            <!-- Cards will be inserted via script.js -->
+            <noscript>Please enable JavaScript to view projects.</noscript>
+          </div>
+        </div>
+    </section>
+
+    <section id="education" class="section-wrapper">
+        <div class="section-content">
+            <h2 class="section-title">Education</h2>
+            <div class="education-grid">
+                <!-- Education items will be populated via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+   
+
+    
+
+    <section id="contact" class="section-wrapper">
+        <div class="section-content">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-grid">
+                <a href="mailto:hrishi.prahalad@gmail.com" class="contact-item">
+                    <svg class="icon" viewBox="0 0 24 24">
+                        <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                    </svg>
+                    <span>Email</span>
+                </a>
+                <a href="https://www.linkedin.com/in/hrishikesh-prahalad-ab960428a" class="contact-item" target="_blank">
+                    <svg class="icon" viewBox="0 0 24 24">
+                        <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/>
+                    </svg>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://github.com/Hrishikesh6187" class="contact-item" target="_blank">
+                    <svg class="icon" viewBox="0 0 24 24">
+                        <path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/>
+                    </svg>
+                    <span>GitHub</span>
+                </a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
