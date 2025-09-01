@@ -71,7 +71,7 @@ const experienceData = [
         achievements: [
             'Developed Smart Home Applications for IOS and Android platforms using Swift, Flutter, and Java allowing users to connect to in-house smart home devices.',
             'Integrated real-time device control and monitoring using REST APIs, enhancing user experience and efficiency by reducing lag by 50%.',
-            'Implemented secure authentication systems for user management, ensuring data privacy and protection using a token system.',
+            'Implemented secure authentication systems for user management, using JWT tokens for access control and AES-256 encryption to protect sensitive user data.',
             'Developed a Water Distribution application in Android Studio for ISKON temple, enabling them to streamline the daily delivery of 30,000 gallons of water to 50+ local schools and businesses.'
         ]
     }
