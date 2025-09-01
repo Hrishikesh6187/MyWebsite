@@ -108,7 +108,7 @@ const educationData = [
         location: 'CLEMSON, SC',
         degree: 'Master\'s Degree in Computer Science',
         gpa: 'GPA 3.95/4.0',
-        specialization: 'Specialization: Data Science, Software Development',
+        specialization: 'Specialization: Data Science, Software Development, and Network Security',
         period: 'Aug 2024 – Current'
     },
     {
@@ -259,8 +259,8 @@ const projectData = [
   {
     title: "Exploring Digital Twin for Plant Growth Monitoring",
     summary: `This project integrates IoT sensors and real-time data streams with a cloud-based digital twin model on AWS to monitor plant health and growth.
-      It provides actionable insights to optimize farming practices and improve sustainability.
-      The research was published in IEEE Xplore as part of our undergraduate thesis work.`,
+      It provides actionable insights to optimize resources like water and fertilizers in order to promote sustainable farming practices.
+      The research was published in IEEE Xplore as part of my undergraduate thesis work.`,
     image: "DigitalTwin.png",
     link: "https://ieeexplore.ieee.org/document/10334087",
     skills: ["raspberrypi", "aws", "iot", "ml"]
@@ -270,7 +270,7 @@ const projectData = [
     summary: `Everclean Home Servicing is a web-based platform that connects homeowners with freelance service providers for a wide range of home maintenance needs. 
       Designed to be intuitive and accessible, the system supports both one-time and subscription-based bookings, making it easy for users to find affordable, high-quality help. 
       Unlike traditional service marketplaces, Everclean focuses exclusively on supporting freelancers—offering them tools for profile management, secure payments, and direct access to clients without marketing overhead.
-      This approach empowers independent professionals while ensuring homeowners receive reliable, flexible service.`,
+      This approach empowers independent professionals while ensuring homeowners receive reliable, customized services.`,
     image: "everclean.jpg",
     link: "https://evercleanhomeservicingapp.netlify.app/",
     skills: ["html", "css", "javascript", "react"]
@@ -279,7 +279,7 @@ const projectData = [
     title: "Modeling User Fatigue in Movie Recommendation Systems",
     summary: `This project adapts the FRec model from SIGIR 2024 to reduce user fatigue in movie recommendations by introducing diversity. 
 Using the TMDB 5000 dataset, it combines self-attention, fatigue-gated recurrent units, and contrastive learning to balance relevance and novelty. 
-A modified LightFM implementation with popularity correction and fatigue-aware scoring improves AUC, precision, diversity, and reduces bias—highlighting the benefits of fatigue-aware adjustments for sustained engagement.`,
+This model is a template that can be implemented in any recommendation system to enhance user engagement and satisfaction.`,
     image: "UserFatigue.png",
     link: "https://github.com/Hrishikesh6187/UserFatigue",
     skills: ["ml", "python", "jupyter"]
