@@ -305,21 +305,18 @@ input:checked + .slider .moon { opacity: 0; }
 
 .projects-scroll-container {
     width: 100%;
-    overflow-x: auto;
-    overflow-y: visible;
+    overflow-x: auto;   /* horizontal scroll */
+    overflow-y: hidden; /* prevent vertical scrollbars */
     padding: 2rem 0;
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
     overscroll-behavior-x: contain;
-    display: flex;
-    justify-content: center;
 }
 
 .projects-grid {
-    display: flex;
+    display: inline-flex;   /* ✅ allow grid to stretch wider than parent */
     gap: 2rem;
     padding: 0 2rem;
-    min-width: max-content;
 }
 
 .projects-grid::-webkit-scrollbar,
